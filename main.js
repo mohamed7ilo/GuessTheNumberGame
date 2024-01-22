@@ -4,7 +4,7 @@ let btn = document.getElementById('btn');
   let highScoreDisplay = document.getElementById('highScore');
   let score = 10;
   let highScore = 0;
-  let number = Math.floor(Math.random() * 30) + 1;
+  let number = Math.floor(Math.random() * 30);
 
   btn.addEventListener('click', function () {
     let input = parseInt(document.getElementById('userinput').value);
@@ -49,6 +49,6 @@ let btn = document.getElementById('btn');
   function resetGame() {
     score = 10;
     scoreDisplay.textContent = score;
-    number = Math.floor(Math.random() * 30) + 1;
+    number = Math.floor(Math.random() * 30) ;
     setMessage("Guess the number between 1 and 30:");
   }
