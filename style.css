@@ -1,9 +1,10 @@
 body {
-    background: linear-gradient(to right, #3498db, #2ecc71);
+    background-image: url(image_processing20190826-2795-5y3ijg.gif);
+    background-position-y: center;
     color: #fff;
     font-family: Arial, sans-serif;
     margin: 0;
-    height: 100vh;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,16 +12,19 @@ body {
 
 
 #contaner {
-    background-color: linear-gradient(to right, #511dca, #e7f346);
+    background-image: url(math-numbers.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-size: 2em;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    border: 4px solid white;
+    border: 4px solid rgb(0, 0, 0);
     position: absolute;
     top: 50%;
     left: 50%;
     height: 600px;
     text-align: center;
     transform: translate(-50%, -50%);
+    width: 1000px;
 }
 
 #btn {
@@ -32,19 +36,78 @@ body {
 #input {
     width: 140px;
     margin: 50px auto;
-   font-size: 25px;
+    font-size: 25px;
 
 }
-p{
+
+p {
     color: white;
-    font-size: 30px;
+    font-size: 40px;
 }
+
 #message {
     font-weight: bold;
-    color: #333;
+    color: #FFEB3B;
+    font-family: 'Open Sans', sans-serif;
 }
 
-#score, #highScore {
+#score,
+#highScore {
     font-weight: bold;
-    color: #ff6347; 
+    color: #ff6347;
+}
+
+#contaner2 {
+    background-image: url(fyDO.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border: 4px solid rgb(0, 0, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 600px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+
+}
+
+#endbtn {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    height: 150px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 225px;
+    font-size: 50px;
+
+}
+
+#title2 {
+    font-size: 50px;
+    color: red;
+}
+
+#img {
+    transform: translate(-50%, -50%);
+    width: 1000px;
+}
+
+#title {
+    color: rgb(170, 245, 127);
+}
+#correctAnsewr{
+    background-image: url(tumblr_7642b2357099fb59aeb26dc005671042_fc2a8c9c_500.gif);
+    background-image: url(ecc2124116aa5a0ee1bc466c7b69dd8a.gif);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    transform: translate(25%, 45%)    
+}
+#correct{
+    color: greenyellow;
 }
