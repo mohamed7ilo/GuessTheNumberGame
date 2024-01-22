@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(to right, #3498db, #2ecc71);
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#contaner {
+    background-color: linear-gradient(to right, #511dca, #e7f346);
+    font-size: 2em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border: 5px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 400px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+#btn {
+
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+#input {
+    width: 100px;
+    margin: 25px auto;
+
+}
+p{
+    color: white;
+    font-size: 25px;
+}
+#message {
+    font-weight: bold;
+    color: #333;
+}
+
+#score, #highScore {
+    font-weight: bold;
+    color: #ff6347; 
+}
